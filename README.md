@@ -25,3 +25,4 @@ Click on the button below to get started:
 Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=railstutorial%2Fsample_app_rails_4&file_to_open=README.nitrous.md)
 
 [![Build Status](https://travis-ci.org/jasnow/sample_app_rails_4.png?branch=master)](https://travis-ci.org/jasnow/sample_app_rails_4)
+
