@@ -1,8 +1,17 @@
 language: ruby
+
 rvm:
-- 2.1.2
-before_script: bundle exec rake db:migrate db:test:prepare RAILS_ENV=test
+- 2.1
+
 before_install: gem update bundler
+
+before_script: 
+  - cp config/database.sqlite3.yml config/database.yml
+  - bundle exec rake db:drop:all
+  - bundle exec rake db:create
+  - bundle exec rake db:migrate
+  - bundle exec rake db:test:prepare
+
 notifications:
   email:
     recipients:
