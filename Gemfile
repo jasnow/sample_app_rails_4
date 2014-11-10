@@ -20,6 +20,13 @@ group :development, :test do
   gem 'rspec-its'
   gem 'sqlite3'
 
+  # Freeze until 1/1/2015, Hopefully guard will be fixed by New Year's.
+  if Time.now > Time.new(2015,1,1)
+    gem 'guard', '~> 2.8'
+  else
+    gem 'guard', '= 2.7.3'
+  end
+
   # The following optional lines are part of the advanced setup.
   gem 'guard-rspec'
   gem 'spork-rails'
