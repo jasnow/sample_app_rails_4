@@ -44,11 +44,10 @@ group :test do
   gem 'simplecov', :require => false
 
   # Uncomment these lines on Linux.
-  gem 'libnotify'
+  gem 'libnotify' if /linux/ =~ RUBY_PLATFORM
+  # Uncomment this line on OS X.  
+  gem 'growl' if /darwin/ =~ RUBY_PLATFORM
 
-  # Uncomment this line on OS X.
-  # gem 'growl', '1.0.3'
-  #
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
   # gem 'win32console', '1.3.2'
