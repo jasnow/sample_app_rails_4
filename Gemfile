@@ -22,9 +22,10 @@ group :development, :test do
 
   # Freeze until 1/1/2015, Hopefully guard will be fixed by New Year's.
   if Time.now > Time.new(2015,1,1)
-    gem 'guard', '~> 2.8'
+    gem 'guard'
+# WAS: , '~> 2.8'
   else
-    gem 'guard', '= 2.7.3'
+    gem 'guard', '2.7.3'
   end
 
   # The following optional lines are part of the advanced setup.
@@ -35,7 +36,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber', '2.0.0.beta.3'
+  gem 'cucumber', '2.0.0.beta.5'
   gem 'cucumber-rails', :require => false
   gem 'selenium-webdriver'
   gem 'capybara'
