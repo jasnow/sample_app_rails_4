@@ -4,7 +4,6 @@ gem 'rails', '4.0.13'
 
 gem 'bootstrap-will_paginate'
 gem 'bootstrap-sass'
-
 gem 'bcrypt'
 gem 'faker'
 gem 'will_paginate'
@@ -14,6 +13,10 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+
+group :doc do
+  gem 'sdoc', require: false
+end
 
 group :development, :test do
   gem 'rspec-rails'
@@ -41,10 +44,6 @@ group :test do
   # gem 'rb-notifu', '0.0.4'
   # gem 'win32console', '1.3.2'
   # gem 'wdm', '0.1.0'
-end
-
-group :doc do
-  gem 'sdoc', require: false
 end
 
 group :production do
