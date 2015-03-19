@@ -32,7 +32,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'cucumber', '2.0.0.rc.4'
+  gem 'cucumber', '2.0.0.rc.5'
   gem 'cucumber-rails', :require => false
   gem 'selenium-webdriver'
   gem 'capybara'
