@@ -3,6 +3,10 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+$grayLighter: #D3D3D3;
+$grayDarker:  #A9A9A9;
+$blue: #0000FF;
+$gray: #808080;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -54,7 +58,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $grayLight;
+  color: $grayLighter;
 }
 
 p {
@@ -87,7 +91,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  color: $grayLighter;
   a {
     color: $gray;
     &:hover {
@@ -232,7 +236,7 @@ input {
   display: block;
 }
 .timestamp {
-  color: $grayLight;
+  color: $grayLighter;
 }
 .gravatar {
   float: left;

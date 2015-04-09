@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.13'
 
 gem 'bootstrap-will_paginate'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.2' # LOCKED DOWN
 gem 'bcrypt'
 gem 'faker'
 gem 'will_paginate'
