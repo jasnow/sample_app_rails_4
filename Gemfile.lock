@@ -26,7 +26,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 0.3.37)
     arel (4.0.2)
-    autoprefixer-rails (5.1.8)
+    autoprefixer-rails (5.1.8.1)
       execjs
       json
     bcrypt (3.1.10)
@@ -70,7 +70,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     erubis (2.7.0)
-    execjs (2.5.0)
+    execjs (2.5.1)
     factory_girl (4.5.0)
       activesupport (>= 3.0.0)
     factory_girl_rails (4.5.0)
