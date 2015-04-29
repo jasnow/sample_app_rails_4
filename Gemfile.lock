@@ -99,6 +99,7 @@ GEM
       spork (>= 0.8.4)
     hitimes (1.2.2)
     i18n (0.7.0)
+    iniparse (1.4.0)
     jbuilder (2.2.13)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -125,6 +126,9 @@ GEM
     notiffany (0.0.6)
       nenv (~> 0.1)
       shellany (~> 0.0)
+    overcommit (0.24.0)
+      childprocess (~> 0.5.6)
+      iniparse (~> 1.4)
     pg (0.18.1)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -250,6 +254,7 @@ DEPENDENCIES
   guard-spork
   jbuilder
   jquery-rails
+  overcommit
   pg
   rails (= 4.0.13)
   rails_12factor

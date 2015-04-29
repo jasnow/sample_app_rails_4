@@ -13,6 +13,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'overcommit'
 
 group :doc do
   gem 'sdoc', require: false
@@ -33,12 +34,12 @@ end
 
 group :test do
   gem 'cucumber'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails', require: false
   gem 'selenium-webdriver'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
-  gem 'simplecov', :require => false
+  gem 'simplecov', require: false
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
