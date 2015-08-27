@@ -12,9 +12,13 @@ before_script:
   - bundle exec rake db:migrate
   - bundle exec rake db:test:prepare
 
+cache: bundler
+
 notifications:
   email:
     recipients:
     - jasnow@hotmail.com
     on_success: change
     on_failure: always
+
+sudo: false
