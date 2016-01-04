@@ -226,7 +226,7 @@ GEM
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     websocket (1.2.2)
-    will_paginate (3.0.7)
+    will_paginate (3.1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
