@@ -229,7 +229,7 @@ GEM
     tilt (2.0.2)
     turbolinks (2.5.3)
       coffee-rails
-    tzinfo (0.3.48)
+    tzinfo (0.3.49)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
     websocket (1.2.3)
