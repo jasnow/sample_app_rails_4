@@ -17,7 +17,6 @@ doc/
 .project
 .DS_Store
 .idea
-.rvmrc
 .ruby-*
 .secret
 coverage
