@@ -14,6 +14,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'overcommit'
+gem 'sprockets'
 
 group :doc do
   gem 'sdoc', require: false

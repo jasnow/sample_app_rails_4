@@ -273,6 +273,7 @@ DEPENDENCIES
   selenium-webdriver
   simplecov
   spork-rails
+  sprockets
   sqlite3
   turbolinks
   uglifier
