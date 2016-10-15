@@ -36,7 +36,7 @@ end
 group :test do
   gem 'cucumber'
   gem 'cucumber-rails', require: false
-  gem 'selenium-webdriver', '3.0.0.beta4.0' # TRY IT (LOCKED DOWN)
+  gem 'selenium-webdriver'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
