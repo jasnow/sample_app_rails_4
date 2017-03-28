@@ -234,7 +234,7 @@ GEM
       turbolinks-source (~> 5)
     turbolinks-source (5.0.0)
     tzinfo (0.3.53)
-    uglifier (3.1.10)
+    uglifier (3.1.11)
       execjs (>= 0.3.0, < 3)
     websocket (1.2.4)
     will_paginate (3.1.5)
