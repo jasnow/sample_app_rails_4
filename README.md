@@ -1,5 +1,7 @@
 # Ruby on Rails Tutorial: sample application
 
+**This repository is not current or maintained. See [www.railstutorial.org/help](https://www.railstutorial.org/help) for the current version of the sample app.**
+
 This is the sample application for
 [*Ruby on Rails Tutorial: Learn Web Development with Rails*](http://railstutorial.org/)
 by [Michael Hartl](http://michaelhartl.com/). You can use this reference implementation to help track down errors if you end up having trouble with code in the tutorial. In particular, as a first debugging check I suggest getting the test suite to pass on your local machine:
@@ -25,4 +27,3 @@ Click on the button below to get started:
 Nitrous.IO](https://d3o0mnbgv6k92a.cloudfront.net/assets/hack-l-v1-3cc067e71372f6045e1949af9d96095b.png)](https://www.nitrous.io/hack_button?source=embed&runtime=rails&repo=railstutorial%2Fsample_app_rails_4&file_to_open=README.nitrous.md)
 
 [![Build Status](https://travis-ci.org/jasnow/sample_app_rails_4.png?branch=master)](https://travis-ci.org/jasnow/sample_app_rails_4)
-
