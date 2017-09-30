@@ -28,10 +28,13 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (4.0.2)
+    autoprefixer-rails (7.1.4.1)
+      execjs
     backports (3.8.0)
     bcrypt (3.1.11)
-    bootstrap-sass (2.3.2.2)
-      sass (~> 3.2)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     bootstrap-will_paginate (1.0.0)
       will_paginate
     builder (3.1.4)
@@ -253,7 +256,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt
-  bootstrap-sass (= 2.3.2.2)
+  bootstrap-sass
   bootstrap-will_paginate
   capybara
   childprocess
