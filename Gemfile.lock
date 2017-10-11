@@ -30,7 +30,7 @@ GEM
     arel (4.0.2)
     autoprefixer-rails (7.1.5)
       execjs
-    backports (3.9.1)
+    backports (3.10.0)
     bcrypt (3.1.11)
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
