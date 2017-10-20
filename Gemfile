@@ -38,7 +38,7 @@ group :test do
   gem 'cucumber-rails', require: false
   gem 'selenium-webdriver'
   gem 'capybara'
-  gem 'factory_girl_rails'
+  gem 'factory_bot_rails'
   gem 'database_cleaner'
   gem 'simplecov', require: false
 
