@@ -31,6 +31,7 @@ group :development, :test do
   gem 'spork-rails'
   gem 'guard-spork'
   gem 'childprocess'
+  gem 'rubocop-rspec'
 end
 
 group :test do
