@@ -29,7 +29,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     arel (4.0.2)
     ast (2.4.0)
-    autoprefixer-rails (9.4.4)
+    autoprefixer-rails (9.4.5)
       execjs
     backports (3.11.4)
     bcrypt (3.1.12)
@@ -141,7 +141,7 @@ GEM
     multi_json (1.13.1)
     multi_test (0.1.2)
     nenv (0.3.0)
-    nokogiri (1.10.0)
+    nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
