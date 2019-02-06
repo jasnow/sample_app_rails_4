@@ -23,7 +23,7 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'rspec-its'
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.13' # 2/6/2019: LOCKED DOWN
   gem 'guard'
 
   # The following optional lines are part of the advanced setup.
