@@ -27,5 +27,7 @@
         I18n.enforce_available_locales = true
 
         config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
+
+        config.generators.javascript_engine = :js
       end
     end
