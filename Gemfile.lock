@@ -246,7 +246,7 @@ GEM
     tzinfo (0.3.56)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (1.6.0)
+    unicode-display_width (1.6.1)
     will_paginate (3.2.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
